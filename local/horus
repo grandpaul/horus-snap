@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export MATPLOTLIBDATA="$SNAP"/usr/share/matplotlib/mpl-data
+
+cd "$HOME"
+
+exec "$SNAP"/usr/bin/horus.horus.snap
